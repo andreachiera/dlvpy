@@ -1,0 +1,7 @@
+node(X) :- arc(X,_).
+node(Y) :- arc(_,Y).
+
+color(X,red) v color(X,green) v color(X,blue) :- node(X).
+badGraph :- arc(X,Y), color(X,Z), color(Y,Z).
+p :- badGraph, not p.
+%not badGraph?

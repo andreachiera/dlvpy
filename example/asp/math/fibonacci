@@ -1,0 +1,4 @@
+fibonacci(0,0).
+fibonacci(1,1).
+fibonacci(2,1).
+fibonacci(N,F) :- #succ(N2,N1), #succ(N1,N), fibonacci(N1,F1), fibonacci(N2,F2), +(F1,F2,F).

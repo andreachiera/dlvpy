@@ -1,0 +1,9 @@
+{
+  "schema": "docenti",
+  "type": "key",
+  "properties": {
+    "insegnamenti": {
+      "type": "key"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+[
+    {
+        "matricola": "doc1",
+        "nome": "Mario",
+        "cognome": "Rossi",
+        "insegnamenti": [{
+            "0001": {
+                "nome":  "Laboratorio - Fondamenti di Informatica"
+            },
+            "0002": {
+                "nome":  "Fondamenti di Informatica",
+                "materiale": "Java for Beginner"
+            }
+        }]
+    }, {
+        "matricola": "doc2",
+        "insegnamenti": [{
+            "0001": {
+                "nome":  "Analisi Matematica 1",
+                "materiale": "Matematica 1",
+                "anno": 1,
+                "semestre": 1,
+                "cfu": 12,
+                "esami": [{
+                    "data": "09/09/2021",
+                    "tipo": "Scritto",
+                    "ore": 2
+                }, {
+                    "data": "19/09/2021",
+                    "tipo": "Orale",
+                    "domande": 3
+                }]
+            },
+            "0002": {
+                "nome":  "Analisi Matematica 2",
+                "materiale": "Matematica 2",
+                "anno": 2,
+                "semestre": 1,
+                "cfu": 9,
+                "esami": [{
+                    "data": "16/09/2021",
+                    "tipo": "Scritto",
+                    "ore": 2.5
+                }, {
+                    "data": "29/09/2021",
+                    "tipo": "Orale",
+                    "domande": 3
+                }]
+            }
+        }]
+    }
+]

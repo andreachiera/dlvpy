@@ -1,0 +1,17 @@
+{
+  "schema": "docenti",
+  "type": "propertyKey",
+  "key": "matricola",
+  "properties": {
+    "insegnamenti": {
+      "properties": {
+        "esami": {
+          "type": "propertyKey",
+          "key": {
+            "autoincrement": true
+          }
+        }
+      }
+    }
+  }
+}

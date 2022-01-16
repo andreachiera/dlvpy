@@ -1,0 +1,1514 @@
+{
+    "0291": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Aziendali e Giuridiche",
+        "CLASSE": "LMG/01",
+        "DES_CLASSE": "Classe delle lauree magistrali in giurisprudenza",
+        "TIPO_CORSO": "LM5",
+        "TIPO_CORSO_DES": "Laurea Magistrale Ciclo Unico 5 anni",
+        "CDS_COD": "0291",
+        "NOME_CDS": "GIURISPRUDENZA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 809,
+        "Iscritti per anno": [
+            191,
+            170,
+            160,
+            147,
+            141
+        ]
+    },
+    "0703": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Civile",
+        "CLASSE": "L-7",
+        "DES_CLASSE": "Classe delle lauree in Ingegneria civile e ambientale",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0703",
+        "NOME_CDS": "INGEGNERIA CIVILE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 165,
+        "Iscritti per anno": [
+            52,
+            54,
+            59,
+            0,
+            0
+        ]
+    },
+    "0704": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica",
+        "CLASSE": "L-8",
+        "DES_CLASSE": "Classe delle lauree in Ingegneria dell'informazione",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0704",
+        "NOME_CDS": "INGEGNERIA ELETTRONICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 221,
+        "Iscritti per anno": [
+            74,
+            65,
+            82,
+            0,
+            0
+        ]
+    },
+    "0705": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Meccanica, Energetica e Gestionale",
+        "CLASSE": "L-8, L-9",
+        "DES_CLASSE": "Classe delle lauree in Ingegneria dell'informazione",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0705",
+        "NOME_CDS": "INGEGNERIA GESTIONALE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 501,
+        "Iscritti per anno": [
+            172,
+            175,
+            154,
+            0,
+            0
+        ]
+    },
+    "0707": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica",
+        "CLASSE": "L-8",
+        "DES_CLASSE": "Classe delle lauree in Ingegneria dell'informazione",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0707",
+        "NOME_CDS": "INGEGNERIA INFORMATICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 665,
+        "Iscritti per anno": [
+            274,
+            197,
+            194,
+            0,
+            0
+        ]
+    },
+    "0708": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Meccanica, Energetica e Gestionale",
+        "CLASSE": "L-9",
+        "DES_CLASSE": "Classe delle lauree in Ingegneria industriale",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0708",
+        "NOME_CDS": "INGEGNERIA MECCANICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 466,
+        "Iscritti per anno": [
+            175,
+            155,
+            136,
+            0,
+            0
+        ]
+    },
+    "0709": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "L-11",
+        "DES_CLASSE": "Classe delle lauree in Lingue e culture moderne",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0709",
+        "NOME_CDS": "LINGUE E CULTURE MODERNE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 539,
+        "Iscritti per anno": [
+            208,
+            157,
+            174,
+            0,
+            0
+        ]
+    },
+    "0710": {
+        "DIPARTIMENTO": "Dipartimento di Culture, Educazione e Societ\u00e0 - DiCES",
+        "CLASSE": "L-19",
+        "DES_CLASSE": "Classe delle lauree in Scienze dell'educazione e della formazione",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0710",
+        "NOME_CDS": "SCIENZE DELL'EDUCAZIONE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 868,
+        "Iscritti per anno": [
+            439,
+            209,
+            220,
+            0,
+            0
+        ]
+    },
+    "0711": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "L-3, L-20",
+        "DES_CLASSE": "Classe delle lauree in Discipline delle arti figurative, della musica, dello spettacolo e della moda",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0711",
+        "NOME_CDS": "COMUNICAZIONE E DAMS",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 354,
+        "Iscritti per anno": [
+            165,
+            101,
+            88,
+            0,
+            0
+        ]
+    },
+    "0712": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "L-5, L-42",
+        "DES_CLASSE": "Classe delle lauree in Filosofia",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0712",
+        "NOME_CDS": "FILOSOFIA E STORIA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 266,
+        "Iscritti per anno": [
+            125,
+            71,
+            70,
+            0,
+            0
+        ]
+    },
+    "0713": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "L-10, L-1",
+        "DES_CLASSE": "Classe delle lauree in Lettere",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0713",
+        "NOME_CDS": "LETTERE E BENI CULTURALI",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 539,
+        "Iscritti per anno": [
+            193,
+            165,
+            181,
+            0,
+            0
+        ]
+    },
+    "0714": {
+        "DIPARTIMENTO": "Dipartimento di Culture, Educazione e Societ\u00e0 - DiCES",
+        "CLASSE": "LM-2",
+        "DES_CLASSE": "Classe delle lauree magistrali in Archeologia",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0714",
+        "NOME_CDS": "ARCHEOLOGIA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Chiude",
+        "Iscritti in corso": 22,
+        "Iscritti per anno": [
+            16,
+            6,
+            0,
+            0,
+            0
+        ]
+    },
+    "0715": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "LM-14",
+        "DES_CLASSE": "Classe delle lauree magistrali in Filologia moderna",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0715",
+        "NOME_CDS": "FILOLOGIA MODERNA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 100,
+        "Iscritti per anno": [
+            50,
+            50,
+            0,
+            0,
+            0
+        ]
+    },
+    "0717": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "LM-37",
+        "DES_CLASSE": "Classe delle lauree magistrali in Lingue e letterature moderne europee e americane",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0717",
+        "NOME_CDS": "LINGUE E LETTERATURE MODERNE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 120,
+        "Iscritti per anno": [
+            68,
+            52,
+            0,
+            0,
+            0
+        ]
+    },
+    "0719": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "LM-15",
+        "DES_CLASSE": "Classe delle lauree magistrali in Filologia, letterature e storia dell'antichit\u00e0",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0719",
+        "NOME_CDS": "SCIENZE DELL'ANTICHIT\u00c0",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 40,
+        "Iscritti per anno": [
+            23,
+            17,
+            0,
+            0,
+            0
+        ]
+    },
+    "0720": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "LM-78",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze filosofiche",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0720",
+        "NOME_CDS": "SCIENZE FILOSOFICHE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 57,
+        "Iscritti per anno": [
+            38,
+            19,
+            0,
+            0,
+            0
+        ]
+    },
+    "0721": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "LM-84",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze storiche",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0721",
+        "NOME_CDS": "SCIENZE STORICHE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 67,
+        "Iscritti per anno": [
+            31,
+            36,
+            0,
+            0,
+            0
+        ]
+    },
+    "0722": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "LM-89",
+        "DES_CLASSE": "Classe delle lauree magistrali in Storia dell'arte",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0722",
+        "NOME_CDS": "STORIA DELL'ARTE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Chiude",
+        "Iscritti in corso": 42,
+        "Iscritti per anno": [
+            23,
+            19,
+            0,
+            0,
+            0
+        ]
+    },
+    "0724": {
+        "DIPARTIMENTO": "Dipartimento di Biologia, Ecologia e Scienze della Terra",
+        "CLASSE": "L-13, L-2",
+        "DES_CLASSE": "Classe delle lauree in Scienze biologiche",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0724",
+        "NOME_CDS": "SCIENZE E TECNOLOGIE BIOLOGICHE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 179,
+        "Iscritti per anno": [
+            75,
+            63,
+            41,
+            0,
+            0
+        ]
+    },
+    "0726": {
+        "DIPARTIMENTO": "Dipartimento di Matematica e Informatica",
+        "CLASSE": "L-35",
+        "DES_CLASSE": "Classe delle lauree in Scienze matematiche",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0726",
+        "NOME_CDS": "MATEMATICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 162,
+        "Iscritti per anno": [
+            68,
+            55,
+            39,
+            0,
+            0
+        ]
+    },
+    "0727": {
+        "DIPARTIMENTO": "Dipartimento di Fisica",
+        "CLASSE": "L-30",
+        "DES_CLASSE": "Classe delle lauree in Scienze e tecnologie fisiche",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0727",
+        "NOME_CDS": "FISICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 109,
+        "Iscritti per anno": [
+            36,
+            37,
+            36,
+            0,
+            0
+        ]
+    },
+    "0728": {
+        "DIPARTIMENTO": "Dipartimento di Chimica e Tecnologie Chimiche",
+        "CLASSE": "L-27",
+        "DES_CLASSE": "Classe delle lauree in Scienze e tecnologie chimiche",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0728",
+        "NOME_CDS": "CHIMICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 122,
+        "Iscritti per anno": [
+            53,
+            35,
+            34,
+            0,
+            0
+        ]
+    },
+    "0729": {
+        "DIPARTIMENTO": "Dipartimento di Fisica",
+        "CLASSE": "L-30",
+        "DES_CLASSE": "Classe delle lauree in Scienze e tecnologie fisiche",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0729",
+        "NOME_CDS": "SCIENZA DEI MATERIALI INNOVATIVI E PER LE NANOTECNOLOGIE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Chiude",
+        "Iscritti in corso": 22,
+        "Iscritti per anno": [
+            8,
+            6,
+            8,
+            0,
+            0
+        ]
+    },
+    "0730": {
+        "DIPARTIMENTO": "Dipartimento di Biologia, Ecologia e Scienze della Terra",
+        "CLASSE": "L-34",
+        "DES_CLASSE": "Classe delle lauree in Scienze geologiche",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0730",
+        "NOME_CDS": "SCIENZE GEOLOGICHE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 87,
+        "Iscritti per anno": [
+            36,
+            24,
+            27,
+            0,
+            0
+        ]
+    },
+    "0731": {
+        "DIPARTIMENTO": "Dipartimento di Biologia, Ecologia e Scienze della Terra",
+        "CLASSE": "L-13",
+        "DES_CLASSE": "Classe delle lauree in Scienze biologiche",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0731",
+        "NOME_CDS": "BIOLOGIA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 291,
+        "Iscritti per anno": [
+            103,
+            93,
+            95,
+            0,
+            0
+        ]
+    },
+    "0733": {
+        "DIPARTIMENTO": "Dipartimento di Matematica e Informatica",
+        "CLASSE": "L-31",
+        "DES_CLASSE": "Classe delle lauree in Scienze e tecnologie informatiche",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0733",
+        "NOME_CDS": "INFORMATICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 343,
+        "Iscritti per anno": [
+            144,
+            104,
+            95,
+            0,
+            0
+        ]
+    },
+    "0734": {
+        "DIPARTIMENTO": "Dipartimento di Biologia, Ecologia e Scienze della Terra",
+        "CLASSE": "LM-6",
+        "DES_CLASSE": "Classe delle lauree magistrali in Biologia",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0734",
+        "NOME_CDS": "BIOLOGIA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 114,
+        "Iscritti per anno": [
+            52,
+            62,
+            0,
+            0,
+            0
+        ]
+    },
+    "0738": {
+        "DIPARTIMENTO": "Dipartimento di Fisica",
+        "CLASSE": "LM-53",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienza e ingegneria dei materiali",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0738",
+        "NOME_CDS": "SCIENZA E INGEGNERIA DEI MATERIALI INNOVATIVI E FUNZIONALI",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Chiude",
+        "Iscritti in corso": 20,
+        "Iscritti per anno": [
+            9,
+            11,
+            0,
+            0,
+            0
+        ]
+    },
+    "0741": {
+        "DIPARTIMENTO": "Dipartimento di Biologia, Ecologia e Scienze della Terra",
+        "CLASSE": "LM-60",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze della natura",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0741",
+        "NOME_CDS": "BIODIVERSIT\u00c0 E SISTEMI NATURALI",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 46,
+        "Iscritti per anno": [
+            22,
+            24,
+            0,
+            0,
+            0
+        ]
+    },
+    "0742": {
+        "DIPARTIMENTO": "Dipartimento di Biologia, Ecologia e Scienze della Terra",
+        "CLASSE": "LM-74",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze e tecnologie geologiche",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0742",
+        "NOME_CDS": "SCIENZE GEOLOGICHE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 51,
+        "Iscritti per anno": [
+            18,
+            33,
+            0,
+            0,
+            0
+        ]
+    },
+    "0744": {
+        "DIPARTIMENTO": "\"Dipartimento di Economia, Statistica e Finanza \"\"Giovanni Anania\"\"- DESF\"",
+        "CLASSE": "L-33",
+        "DES_CLASSE": "Classe delle lauree in Scienze economiche",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0744",
+        "NOME_CDS": "ECONOMIA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 574,
+        "Iscritti per anno": [
+            227,
+            194,
+            153,
+            0,
+            0
+        ]
+    },
+    "0745": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Aziendali e Giuridiche",
+        "CLASSE": "L-18",
+        "DES_CLASSE": "Classe delle lauree in Scienze dell'economia e della gestione aziendale",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0745",
+        "NOME_CDS": "ECONOMIA AZIENDALE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 857,
+        "Iscritti per anno": [
+            337,
+            268,
+            252,
+            0,
+            0
+        ]
+    },
+    "0747": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Aziendali e Giuridiche",
+        "CLASSE": "L-15",
+        "DES_CLASSE": "Classe delle lauree in Scienze del turismo",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0747",
+        "NOME_CDS": "SCIENZE TURISTICHE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 262,
+        "Iscritti per anno": [
+            90,
+            89,
+            83,
+            0,
+            0
+        ]
+    },
+    "0748": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Aziendali e Giuridiche",
+        "CLASSE": "LM-49",
+        "DES_CLASSE": "Classe delle lauree magistrali in Progettazione e gestione dei sistemi turistici",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0748",
+        "NOME_CDS": "VALORIZZAZIONE DEI SISTEMI TURISTICO CULTURALI",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 53,
+        "Iscritti per anno": [
+            21,
+            32,
+            0,
+            0,
+            0
+        ]
+    },
+    "0785": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Aziendali e Giuridiche",
+        "CLASSE": "LM-77",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze economico-aziendali",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0785",
+        "NOME_CDS": "ECONOMIA AZIENDALE E MANAGEMENT",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 397,
+        "Iscritti per anno": [
+            209,
+            188,
+            0,
+            0,
+            0
+        ]
+    },
+    "0753": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Politiche e Sociali",
+        "CLASSE": "L-36",
+        "DES_CLASSE": "Classe delle lauree in Scienze politiche e delle relazioni internazionali",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0753",
+        "NOME_CDS": "SCIENZE POLITICHE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 280,
+        "Iscritti per anno": [
+            108,
+            84,
+            88,
+            0,
+            0
+        ]
+    },
+    "0755": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Politiche e Sociali",
+        "CLASSE": "L-16",
+        "DES_CLASSE": "Classe delle lauree in Scienze dell'amministrazione e dell'organizzazione",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0755",
+        "NOME_CDS": "SCIENZE DELL'AMMINISTRAZIONE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 292,
+        "Iscritti per anno": [
+            115,
+            86,
+            91,
+            0,
+            0
+        ]
+    },
+    "0757": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Politiche e Sociali",
+        "CLASSE": "LM-63",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze delle pubbliche amministrazioni",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0757",
+        "NOME_CDS": "SCIENZE DELLE PUBBLICHE AMMINISTRAZIONI",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 144,
+        "Iscritti per anno": [
+            73,
+            71,
+            0,
+            0,
+            0
+        ]
+    },
+    "0758": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Politiche e Sociali",
+        "CLASSE": "LM-87",
+        "DES_CLASSE": "Classe delle lauree magistrali in Servizio sociale e politiche sociali",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0758",
+        "NOME_CDS": "SCIENZE DELLE POLITICHE E DEI SERVIZI SOCIALI",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 110,
+        "Iscritti per anno": [
+            50,
+            60,
+            0,
+            0,
+            0
+        ]
+    },
+    "0759": {
+        "DIPARTIMENTO": "Dipartimento di Farmacia e Scienze della Salute e della Nutrizione",
+        "CLASSE": "L-29",
+        "DES_CLASSE": "Classe delle lauree in Scienze e tecnologie farmaceutiche",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0759",
+        "NOME_CDS": "INFORMAZIONE SCIENTIFICA DEL FARMACO E DEI PRODOTTI PER LA SALUTE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 179,
+        "Iscritti per anno": [
+            90,
+            40,
+            49,
+            0,
+            0
+        ]
+    },
+    "0760": {
+        "DIPARTIMENTO": "Dipartimento di Farmacia e Scienze della Salute e della Nutrizione",
+        "CLASSE": "L-29",
+        "DES_CLASSE": "Classe delle lauree in Scienze e tecnologie farmaceutiche",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0760",
+        "NOME_CDS": "SCIENZA DELLA NUTRIZIONE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 389,
+        "Iscritti per anno": [
+            163,
+            114,
+            112,
+            0,
+            0
+        ]
+    },
+    "0761": {
+        "DIPARTIMENTO": "Dipartimento di Farmacia e Scienze della Salute e della Nutrizione",
+        "CLASSE": "LM-13",
+        "DES_CLASSE": "Classe delle lauree magistrali in Farmacia e farmacia industriale",
+        "TIPO_CORSO": "LM5",
+        "TIPO_CORSO_DES": "Laurea Magistrale Ciclo Unico 5 anni",
+        "CDS_COD": "0761",
+        "NOME_CDS": "CHIMICA E TECNOLOGIA FARMACEUTICHE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 450,
+        "Iscritti per anno": [
+            104,
+            82,
+            81,
+            86,
+            97
+        ]
+    },
+    "0762": {
+        "DIPARTIMENTO": "Dipartimento di Farmacia e Scienze della Salute e della Nutrizione",
+        "CLASSE": "LM-13",
+        "DES_CLASSE": "Classe delle lauree magistrali in Farmacia e farmacia industriale",
+        "TIPO_CORSO": "LM5",
+        "TIPO_CORSO_DES": "Laurea Magistrale Ciclo Unico 5 anni",
+        "CDS_COD": "0762",
+        "NOME_CDS": "FARMACIA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 413,
+        "Iscritti per anno": [
+            96,
+            75,
+            78,
+            87,
+            77
+        ]
+    },
+    "0763": {
+        "DIPARTIMENTO": "Dipartimento di Farmacia e Scienze della Salute e della Nutrizione",
+        "CLASSE": "LM-61",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze della nutrizione umana",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0763",
+        "NOME_CDS": "SCIENZA DELLA NUTRIZIONE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 115,
+        "Iscritti per anno": [
+            71,
+            44,
+            0,
+            0,
+            0
+        ]
+    },
+    "0764": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica",
+        "CLASSE": "LM-22",
+        "DES_CLASSE": "Classe delle lauree magistrali in Ingegneria chimica",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0764",
+        "NOME_CDS": "INGEGNERIA CHIMICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 54,
+        "Iscritti per anno": [
+            35,
+            19,
+            0,
+            0,
+            0
+        ]
+    },
+    "0765": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Civile",
+        "CLASSE": "LM-23",
+        "DES_CLASSE": "Classe delle lauree magistrali in Ingegneria civile",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0765",
+        "NOME_CDS": "INGEGNERIA CIVILE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 131,
+        "Iscritti per anno": [
+            62,
+            69,
+            0,
+            0,
+            0
+        ]
+    },
+    "0768": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica",
+        "CLASSE": "LM-29",
+        "DES_CLASSE": "Classe delle lauree magistrali in Ingegneria elettronica",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0768",
+        "NOME_CDS": "INGEGNERIA ELETTRONICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 53,
+        "Iscritti per anno": [
+            36,
+            17,
+            0,
+            0,
+            0
+        ]
+    },
+    "0769": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Meccanica, Energetica e Gestionale",
+        "CLASSE": "LM-30",
+        "DES_CLASSE": "Classe delle lauree magistrali in Ingegneria energetica e nucleare",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0769",
+        "NOME_CDS": "INGEGNERIA ENERGETICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 62,
+        "Iscritti per anno": [
+            30,
+            32,
+            0,
+            0,
+            0
+        ]
+    },
+    "0770": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Meccanica, Energetica e Gestionale",
+        "CLASSE": "LM-31",
+        "DES_CLASSE": "Classe delle lauree magistrali in Ingegneria gestionale",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0770",
+        "NOME_CDS": "INGEGNERIA GESTIONALE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 227,
+        "Iscritti per anno": [
+            106,
+            121,
+            0,
+            0,
+            0
+        ]
+    },
+    "0771": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica",
+        "CLASSE": "LM-32",
+        "DES_CLASSE": "Classe delle lauree magistrali in Ingegneria informatica",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0771",
+        "NOME_CDS": "INGEGNERIA INFORMATICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 129,
+        "Iscritti per anno": [
+            77,
+            52,
+            0,
+            0,
+            0
+        ]
+    },
+    "0772": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Meccanica, Energetica e Gestionale",
+        "CLASSE": "LM-33",
+        "DES_CLASSE": "Classe delle lauree magistrali in Ingegneria meccanica",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0772",
+        "NOME_CDS": "INGEGNERIA MECCANICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 90,
+        "Iscritti per anno": [
+            35,
+            55,
+            0,
+            0,
+            0
+        ]
+    },
+    "0774": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Civile",
+        "CLASSE": "LM-4 c.u.",
+        "DES_CLASSE": "Classe delle lauree magistrali in Architettura e ingegneria edile-architettura (quinquennale)",
+        "TIPO_CORSO": "LM5",
+        "TIPO_CORSO_DES": "Laurea Magistrale Ciclo Unico 5 anni",
+        "CDS_COD": "0774",
+        "NOME_CDS": "INGEGNERIA EDILE-ARCHITETTURA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 170,
+        "Iscritti per anno": [
+            51,
+            26,
+            24,
+            39,
+            30
+        ]
+    },
+    "0775": {
+        "DIPARTIMENTO": "Dipartimento di Matematica e Informatica",
+        "CLASSE": "LM-85 bis",
+        "DES_CLASSE": "Scienze della formazione primaria",
+        "TIPO_CORSO": "LM5",
+        "TIPO_CORSO_DES": "Laurea Magistrale Ciclo Unico 5 anni",
+        "CDS_COD": "0775",
+        "NOME_CDS": "SCIENZE DELLA FORMAZIONE PRIMARIA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 1027,
+        "Iscritti per anno": [
+            222,
+            208,
+            211,
+            216,
+            170
+        ]
+    },
+    "0777": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Politiche e Sociali",
+        "CLASSE": "L-39",
+        "DES_CLASSE": "Classe delle lauree in Servizio sociale",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0777",
+        "NOME_CDS": "SERVIZIO SOCIALE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 234,
+        "Iscritti per anno": [
+            91,
+            71,
+            72,
+            0,
+            0
+        ]
+    },
+    "0778": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Politiche e Sociali",
+        "CLASSE": "LM-81",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze per la cooperazione allo sviluppo",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0778",
+        "NOME_CDS": "SCIENZE PER LA COOPERAZIONE E LO SVILUPPO",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Chiude",
+        "Iscritti in corso": 31,
+        "Iscritti per anno": [
+            18,
+            13,
+            0,
+            0,
+            0
+        ]
+    },
+    "0779": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "LM-65",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze dello spettacolo e produzione multimediale",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0779",
+        "NOME_CDS": "DAMS. CINEMA, FOTOGRAFIA, PERFORMANCE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Chiude",
+        "Iscritti in corso": 39,
+        "Iscritti per anno": [
+            19,
+            20,
+            0,
+            0,
+            0
+        ]
+    },
+    "0780": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "LM-92",
+        "DES_CLASSE": "Classe delle lauree magistrali in Teorie della comunicazione",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0780",
+        "NOME_CDS": "COMUNICAZIONE E TECNOLOGIE DELL'INFORMAZIONE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 41,
+        "Iscritti per anno": [
+            25,
+            16,
+            0,
+            0,
+            0
+        ]
+    },
+    "0782": {
+        "DIPARTIMENTO": "Dipartimento di Biologia, Ecologia e Scienze della Terra",
+        "CLASSE": "LMR/02",
+        "DES_CLASSE": "Conservazione e restauro dei beni culturali",
+        "TIPO_CORSO": "LM5",
+        "TIPO_CORSO_DES": "Laurea Magistrale Ciclo Unico 5 anni",
+        "CDS_COD": "0782",
+        "NOME_CDS": "CONSERVAZIONE E RESTAURO DEI BENI CULTURALI (ABILITANTE AI SENSI DEL D.LGS N.42/2004)",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 26,
+        "Iscritti per anno": [
+            5,
+            5,
+            5,
+            5,
+            6
+        ]
+    },
+    "0783": {
+        "DIPARTIMENTO": "Dipartimento di Culture, Educazione e Societ\u00e0 - DiCES",
+        "CLASSE": "LM-43",
+        "DES_CLASSE": "Classe delle lauree magistrali in Metodologie informatiche per le discipline umanistiche",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0783",
+        "NOME_CDS": "GESTIONE E CONSERVAZIONE DEI DOCUMENTI DIGITALI",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 45,
+        "Iscritti per anno": [
+            26,
+            19,
+            0,
+            0,
+            0
+        ]
+    },
+    "0784": {
+        "DIPARTIMENTO": "\"Dipartimento di Economia, Statistica e Finanza \"\"Giovanni Anania\"\"- DESF\"",
+        "CLASSE": "LM-16",
+        "DES_CLASSE": "Classe delle lauree magistrali In finanza",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0784",
+        "NOME_CDS": "FINANCE AND INSURANCE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 40,
+        "Iscritti per anno": [
+            23,
+            17,
+            0,
+            0,
+            0
+        ]
+    },
+    "0788": {
+        "DIPARTIMENTO": "\"Dipartimento di Economia, Statistica e Finanza \"\"Giovanni Anania\"\"- DESF\"",
+        "CLASSE": "LM-56",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze dell'economia",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0788",
+        "NOME_CDS": "ECONOMIA E COMMERCIO",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 114,
+        "Iscritti per anno": [
+            54,
+            60,
+            0,
+            0,
+            0
+        ]
+    },
+    "0791": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Politiche e Sociali",
+        "CLASSE": "LM-88",
+        "DES_CLASSE": "Classe delle lauree magistrali in Sociologia e ricerca sociale",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0791",
+        "NOME_CDS": "SOCIOLOGIA E RICERCA SOCIALE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Chiude",
+        "Iscritti in corso": 28,
+        "Iscritti per anno": [
+            13,
+            15,
+            0,
+            0,
+            0
+        ]
+    },
+    "0793": {
+        "DIPARTIMENTO": "Dipartimento di Farmacia e Scienze della Salute e della Nutrizione",
+        "CLASSE": "L/SNT4",
+        "DES_CLASSE": "Classe delle lauree in Professioni sanitarie della prevenzione",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0793",
+        "NOME_CDS": "ASSISTENZA SANITARIA (ABILITANTE ALLA PROFESSIONE SANITARIA DI ASSISTENTE SANITARIO)",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": ""
+    },
+    "0794": {
+        "DIPARTIMENTO": "Dipartimento di Culture, Educazione e Societ\u00e0 - DiCES",
+        "CLASSE": "LM/DS",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze della difesa e della sicurezza",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0794",
+        "NOME_CDS": "INTELLIGENCE E ANALISI DEL RISCHIO",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Chiude",
+        "Iscritti in corso": 32,
+        "Iscritti per anno": [
+            20,
+            12,
+            0,
+            0,
+            0
+        ]
+    },
+    "0796": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica",
+        "CLASSE": "LM-32",
+        "DES_CLASSE": "Classe delle lauree magistrali in Ingegneria informatica",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0796",
+        "NOME_CDS": "COMPUTER ENGINEERING FOR THE INTERNET OF THINGS",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Chiuder\u00e0 nell'a.a.22/23",
+        "Iscritti in corso": 25,
+        "Iscritti per anno": [
+            19,
+            6,
+            0,
+            0,
+            0
+        ]
+    },
+    "0797": {
+        "DIPARTIMENTO": "Dipartimento di Culture, Educazione e Societ\u00e0 - DiCES",
+        "CLASSE": "LM-85",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze pedagogiche",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0797",
+        "NOME_CDS": "SCIENZE PEDAGOGICHE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 290,
+        "Iscritti per anno": [
+            166,
+            124,
+            0,
+            0,
+            0
+        ]
+    },
+    "0798": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Politiche e Sociali",
+        "CLASSE": "LM-62",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze della politica",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0798",
+        "NOME_CDS": "SCIENZE POLITICHE E ISTITUZIONI COMPARATE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "",
+        "Iscritti in corso": 26,
+        "Iscritti per anno": [
+            26,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "0799": {
+        "DIPARTIMENTO": "Dipartimento di Studi Umanistici",
+        "CLASSE": "LM-65,LM-89",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze dello spettacolo e produzione multimediale & Classe delle lauree magistrali in Storia dell'arte",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0799",
+        "NOME_CDS": "DAMS e Storia dell\u2019arte. Organizzazione e teoria delle arti, della musica e del teatro",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "nuovo CdS"
+    },
+    "0800": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Politiche e Sociali",
+        "CLASSE": "L-20",
+        "DES_CLASSE": "Classe delle lauree in Scienze della comunicazione",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0800",
+        "NOME_CDS": "Media e Societ\u00e0 digitale",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "nuovo CdS"
+    },
+    "0801": {
+        "DIPARTIMENTO": "Dipartimento di Scienze Politiche e Sociali",
+        "CLASSE": "LM-81,LM-88",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze per la cooperazione allo sviluppo & Classe delle lauree magistrali in Sociologia e ricerca sociale",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0801",
+        "NOME_CDS": "Sociologia, Cooperazione e Sviluppo",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "nuovo CdS"
+    },
+    "0802": {
+        "DIPARTIMENTO": "Dipartimento di Fisica",
+        "CLASSE": "L-9",
+        "DES_CLASSE": "Classe delle lauree in Ingegneria industriale",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0802",
+        "NOME_CDS": "Scienza e Ingegneria dei Materiali",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "nuovo CdS"
+    },
+    "0809": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria dell\u2019Ambiente - (DIAm)",
+        "CLASSE": "L-7",
+        "DES_CLASSE": "Classe delle lauree in Ingegneria civile e ambientale",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0809",
+        "NOME_CDS": "INGEGNERIA PER L'AMBIENTE E LA SICUREZZA DEL TERRITORIO",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica da interclasse (L-7&L-9) a monoclasse L-7 e nuova denominazione",
+        "Iscritti in corso": 184,
+        "Iscritti per anno": [
+            90,
+            51,
+            43,
+            0,
+            0
+        ]
+    },
+    "0804": {
+        "DIPARTIMENTO": "Dipartimento di Farmacia e Scienze della Salute e della Nutrizione",
+        "CLASSE": "LM-41",
+        "DES_CLASSE": "Classe delle lauree magistrali in Medicina e Chirurgia",
+        "TIPO_CORSO": "LM6",
+        "TIPO_CORSO_DES": "Laurea Magistrale Ciclo Unico 6 anni",
+        "CDS_COD": "0804",
+        "NOME_CDS": "MEDICINA E CHIRURGIA - TD",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "nuovo CdS"
+    },
+    "0805": {
+        "DIPARTIMENTO": "Dipartimento di Culture, Educazione e Societ\u00e0 - DiCES",
+        "CLASSE": "L-19",
+        "DES_CLASSE": "Classe delle lauree in Scienze dell'educazione e della formazione",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0805",
+        "NOME_CDS": "Scienze dell\u2019Educazione (sdoppiamento)",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "nuovo CdS"
+    },
+    "0806": {
+        "DIPARTIMENTO": "Dipartimento di Culture, Educazione e Societ\u00e0 - DiCES",
+        "CLASSE": "L-12",
+        "DES_CLASSE": "Classe delle lauree in Mediazione linguistica",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0806",
+        "NOME_CDS": "Mediazione Linguistica",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "nuovo CdS"
+    },
+    "0808": {
+        "DIPARTIMENTO": "Dipartimento di Culture, Educazione e Societ\u00e0 - DiCES",
+        "CLASSE": "LM-2, LM/DS",
+        "DES_CLASSE": "Classe delle lauree magistrali in Archeologia & Classe delle lauree magistrali in Scienze della difesa e della sicurezza",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0808",
+        "NOME_CDS": "Intelligence per la legalit\u00e0 e la tutela dei beni culturali e archeologici",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "nuovo CdS"
+    },
+    "0803": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria dell\u2019Ambiente - (DIAm)",
+        "CLASSE": "LM-35",
+        "DES_CLASSE": "Classe delle lauree magistrali in Ingegneria per l'ambiente e il territorio",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0803",
+        "NOME_CDS": "INGEGNERIA PER L'AMBIENTE E LA SICUREZZA DEL TERRITORIO",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica",
+        "Iscritti in corso": 38,
+        "Iscritti per anno": [
+            19,
+            19,
+            0,
+            0,
+            0
+        ]
+    },
+    "0810": {
+        "DIPARTIMENTO": "Dipartimento di Biologia, Ecologia e Scienze della Terra",
+        "CLASSE": "L-32",
+        "DES_CLASSE": "Classe delle lauree in Scienze e tecnologie per l'ambiente e la natura",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0810",
+        "NOME_CDS": "SCIENZE NATURALI E AMBIENTALI",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica",
+        "Iscritti in corso": 118,
+        "Iscritti per anno": [
+            68,
+            23,
+            27,
+            0,
+            0
+        ]
+    },
+    "0811": {
+        "DIPARTIMENTO": "Dipartimento di Biologia, Ecologia e Scienze della Terra",
+        "CLASSE": "LM-9",
+        "DES_CLASSE": "Classe delle lauree magistrali in Biotecnologie mediche, veterinarie e farmaceutiche",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0811",
+        "NOME_CDS": "HEALTH BIOTECHNOLOGY",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica",
+        "Iscritti in corso": 49,
+        "Iscritti per anno": [
+            18,
+            31,
+            0,
+            0,
+            0
+        ]
+    },
+    "0812": {
+        "DIPARTIMENTO": "Dipartimento di Fisica",
+        "CLASSE": "LM-17",
+        "DES_CLASSE": "Classe delle lauree magistrali in Fisica",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0812",
+        "NOME_CDS": "PHYSICS",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica",
+        "Iscritti in corso": 34,
+        "Iscritti per anno": [
+            14,
+            20,
+            0,
+            0,
+            0
+        ]
+    },
+    "0813": {
+        "DIPARTIMENTO": "Dipartimento di Matematica e Informatica",
+        "CLASSE": "LM-40",
+        "DES_CLASSE": "Classe delle lauree magistrali in Matematica",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0813",
+        "NOME_CDS": "MATHEMATICS",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica",
+        "Iscritti in corso": 42,
+        "Iscritti per anno": [
+            33,
+            9,
+            0,
+            0,
+            0
+        ]
+    },
+    "0814": {
+        "DIPARTIMENTO": "Dipartimento di Matematica e Informatica",
+        "CLASSE": "LM-18",
+        "DES_CLASSE": "Classe delle lauree magistrali in Informatica",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0814",
+        "NOME_CDS": "ARTIFICIAL INTELLIGENCE AND COMPUTER SCIENCE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica",
+        "Iscritti in corso": 60,
+        "Iscritti per anno": [
+            38,
+            22,
+            0,
+            0,
+            0
+        ]
+    },
+    "0815": {
+        "DIPARTIMENTO": "Dipartimento di Chimica e Tecnologie Chimiche",
+        "CLASSE": "LM-54",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze chimiche",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0815",
+        "NOME_CDS": "CHEMISTRY",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica",
+        "Iscritti in corso": 35,
+        "Iscritti per anno": [
+            21,
+            14,
+            0,
+            0,
+            0
+        ]
+    },
+    "0816": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica",
+        "CLASSE": "LM-25",
+        "DES_CLASSE": "Classe delle lauree magistrali in Ingegneria dell'automazione",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0816",
+        "NOME_CDS": "ROBOTICS AND AUTOMATION ENGINEERING",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica",
+        "Iscritti in corso": 36,
+        "Iscritti per anno": [
+            16,
+            20,
+            0,
+            0,
+            0
+        ]
+    },
+    "0817": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica",
+        "CLASSE": "LM-27",
+        "DES_CLASSE": "Classe delle lauree magistrali in Ingegneria delle telecomunicazioni",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0817",
+        "NOME_CDS": "TELECOMMUNICATION ENGINEERING: Smart Sensing, Computing and Networking",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica",
+        "Iscritti in corso": 30,
+        "Iscritti per anno": [
+            18,
+            12,
+            0,
+            0,
+            0
+        ]
+    },
+    "0818": {
+        "DIPARTIMENTO": "Dipartimento di Ingegneria Informatica, Modellistica, Elettronica e Sistemistica",
+        "CLASSE": "L-9",
+        "DES_CLASSE": "Classe delle lauree in Ingegneria industriale",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0818",
+        "NOME_CDS": "INGEGNERIA CHIMICA",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Ex Ingegneria Alimentare",
+        "Iscritti in corso": 48,
+        "Iscritti per anno": [
+            16,
+            9,
+            23,
+            0,
+            0
+        ]
+    },
+    "0819": {
+        "DIPARTIMENTO": "\"Dipartimento di Economia, Statistica e Finanza \"\"Giovanni Anania\"\"- DESF\"",
+        "CLASSE": "L-41",
+        "DES_CLASSE": "Classe delle lauree in Statistica",
+        "TIPO_CORSO": "L",
+        "TIPO_CORSO_DES": "Laurea",
+        "CDS_COD": "0819",
+        "NOME_CDS": "STATISTICA PER DATA SCIENCE",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica",
+        "Iscritti in corso": 106,
+        "Iscritti per anno": [
+            38,
+            37,
+            31,
+            0,
+            0
+        ]
+    },
+    "0820": {
+        "DIPARTIMENTO": "\"Dipartimento di Economia, Statistica e Finanza \"\"Giovanni Anania\"\"- DESF\"",
+        "CLASSE": "LM-82",
+        "DES_CLASSE": "Classe delle lauree magistrali in Scienze statistiche",
+        "TIPO_CORSO": "LM",
+        "TIPO_CORSO_DES": "Laurea Magistrale",
+        "CDS_COD": "0820",
+        "NOME_CDS": "DATA SCIENCE PER LE STRATEGIE AZIENDALI",
+        "CdS nuova istituzione nell'a.a.2021/22 e CdS in chiusura": "Modifica",
+        "Iscritti in corso": 44,
+        "Iscritti per anno": [
+            28,
+            16,
+            0,
+            0,
+            0
+        ]
+    }
+}

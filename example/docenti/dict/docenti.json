@@ -1,0 +1,44 @@
+{
+    "doc1": {
+        "nome": "Mario",
+        "cognome": "Rossi",
+        "data-nascita": "12/12/1987",
+        "collaboratori": 14,
+        "insegnamenti": {
+            "0001": {
+                "nome":  "Laboratorio - Fordamenti di Informatica",
+                "crediti": 6,
+                "studenti-in-corso": 132,
+                "anno": 1,
+                "semestre": 2,
+                "materiale": null
+            },
+            "0002": {
+                "nome":  "Fondamenti di informatica",
+                "crediti": 6,
+                "studenti-in-corso": 152,
+                "anno": 1,
+                "semestre": 1,
+                "materiali": [
+                    "Algorimi e struttura Dati",
+                    "Java for beginner"
+                ]
+            }
+        }
+    },
+    "doc2": {
+        "nome": "Marco",
+        "cognome": "Alberto",
+        "data-nascita": "13/12/1979",
+        "insegnamenti": {
+            "0001": {
+                "nome":  "Analisi matematica 1",
+                "crediti": "12",
+                "studenti-in-corso": 147,
+                "anno": 1,
+                "semestre": 1,
+                "materiale": "Matematica 1"
+            }
+        }
+    }
+}

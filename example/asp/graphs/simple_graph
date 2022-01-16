@@ -1,0 +1,7 @@
+arc(a,b).
+arc(b,c).
+arc(c,a).
+arc(c,d).
+arc(a,d).
+arc(a,e).
+arc(d,e).

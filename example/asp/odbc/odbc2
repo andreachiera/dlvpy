@@ -1,0 +1,3 @@
+#import(dlv,"root","password","SELECT * FROM arc", arc, type: CONST, CONST).
+#import(dlv,"root","password","SELECT * FROM arc2", arc, type: CONST, CONST).
+

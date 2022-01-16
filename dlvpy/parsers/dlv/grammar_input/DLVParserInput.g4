@@ -1,0 +1,14 @@
+parser grammar DLVParserInput;
+
+options {tokenVocab=DLVLexerInput;}
+
+codeinput: line* EOF;
+line: (comment | ~(NEW_LINE_SYMBOL)*) NEW_LINE_SYMBOL;
+comment: COMMENT_BEGIN schema? ~(NEW_LINE_SYMBOL)*;
+schema: SCHEMA_KEY_LABEL OPEN_ROUND_BRACKET name OPEN_ROUND_BRACKET (ancestor_key COMMA)* key (COMMA STRING)* CLOSE_ROUND_BRACKET CLOSE_ROUND_BRACKET;
+ancestor_key: ANCESTOR_KEY_LABEL OPEN_ROUND_BRACKET name CLOSE_ROUND_BRACKET;
+name: NAME | SCHEMA_KEY_LABEL | ANCESTOR_KEY_LABEL | KEY_LABEL | KEY_AUTOINCREMENT;
+key: KEY_LABEL (OPEN_ROUND_BRACKET (key_autoincrement | key_properties ) CLOSE_ROUND_BRACKET)?;
+key_properties: OPEN_SQUARE_BRACKET STRING (COMMA STRING)* CLOSE_SQUARE_BRACKET (COMMA key_concat)?;
+key_concat: STRING;
+key_autoincrement: KEY_AUTOINCREMENT;
