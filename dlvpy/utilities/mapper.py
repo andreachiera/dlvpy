@@ -10,8 +10,10 @@ class DLVMapper(ABC):
         if isinstance(value, str):
             result = "\"" + DLVMapper.replaceAllBadCharacters(value) + "\""
             return result
+        if isinstance(value, int) and value < 0:
+            return "negative_integer(" + str(-1 * value) + ")"
         if isinstance(value, float):
-            return "float(" + str(value).replace(".", ",") + ")"
+            return ("negative_" if value<0 else "") + "float(" + str(value if value >= 0 else -1*value).replace(".", ",") + ")"
         if isinstance(value, bool):
             return "true" if value else "false"
         if isinstance(value, list):
