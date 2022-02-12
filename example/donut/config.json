@@ -1,20 +1,20 @@
 {
     "schema": "donuts",
-    "type": "propertyKey",
+    "type": "property",
     "key": "id",
     "properties": {
         "batters": {
-            "type": "propertyKey",
+            "type": "property",
             "key": {
                 "autoincrement": true
             }
         },
         "topping": {
-            "type": "propertyKey",
+            "type": "property",
             "key": "id"
         },
         "fillings": {
-            "type": "propertyKey",
+            "type": "property",
             "key": "id"
         }
     }

@@ -5,12 +5,14 @@ from dlvpy.utilities.utility import Utils
 
 
 class InputComponent:
-    TYPES_OF_ANALYSIS = ["key", "propertyKey"]
+    TYPES_OF_ANALYSIS = ["key", "property"]
     DEFAULT_ANALYSIS_TYPE = TYPES_OF_ANALYSIS[0]
     CONFIG_TYPE_KEY = "type"
     CONFIG_PROPERTIES_KEY = "properties"
     CONFIG_PROPERTY_KEY = "key"
     CONFIG_PROPERTY_KEY_PROPERTIES = "properties"
+    CONFIG_PROPERTY_KEY_CONCAT = "concat"
+    CONFIG_PROPERTY_KEY_CONCAT_DEFAULT = "__"
     CONFIG_PROPERTY_KEY_AUTOINCREMENT = "autoincrement"
     CONFIG_SCHEMA_NAME_PREFIX_KEY = "schema"
 

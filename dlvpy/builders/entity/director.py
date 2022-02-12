@@ -118,10 +118,10 @@ class Director(ABC):
             if property_key_key is not None:
                 property_key_value = entity_key_properties_type_and_value[2][property_key]
             else:
-                if "autoincrement" in property_key and property_key["autoincrement"] == True:
+                if InputComponent.CONFIG_PROPERTY_KEY_AUTOINCREMENT in property_key and property_key[InputComponent.CONFIG_PROPERTY_KEY_AUTOINCREMENT] == True:
                     property_key_value = str(idx + 1)
                 else:
-                    property_key_value = (("__" if "concat" not in property_key else property_key["concat"]).join([entity_key_properties_type_and_value[2][prop] for prop in property_key[InputComponent.CONFIG_PROPERTY_KEY_PROPERTIES]]))
+                    property_key_value = ((InputComponent.CONFIG_PROPERTY_KEY_CONCAT_DEFAULT if InputComponent.CONFIG_PROPERTY_KEY_CONCAT not in property_key else property_key["concat"]).join([str(entity_key_properties_type_and_value[2][prop]) for prop in property_key[InputComponent.CONFIG_PROPERTY_KEY_PROPERTIES]]))
             self._entity_builder.build_entity_container(property_key_key, property_key_value)
             entity_container = self._entity_builder.product
 

@@ -1,12 +1,12 @@
 {
   "schema": "docenti",
-  "type": "propertyKey",
+  "type": "property",
   "key": "matricola",
   "properties": {
     "insegnamenti": {
       "properties": {
         "esami": {
-          "type": "propertyKey",
+          "type": "property",
           "key": {
             "autoincrement": true
           }
