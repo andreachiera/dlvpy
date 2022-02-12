@@ -14,6 +14,8 @@ class DLVMapper(ABC):
             return "negative_integer(" + str(-1 * value) + ")"
         if isinstance(value, float):
             return ("negative_" if value<0 else "") + "float(" + str(value if value >= 0 else -1*value).replace(".", ",") + ")"
+        if isinstance(value, complex):
+            return "complex(" + DLVMapper.mapValueToDLVFormat(value.real) + "," + DLVMapper.mapValueToDLVFormat(value.imag) + ")"
         if isinstance(value, bool):
             return "true" if value else "false"
         if isinstance(value, list):

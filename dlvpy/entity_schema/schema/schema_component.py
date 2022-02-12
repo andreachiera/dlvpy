@@ -7,7 +7,7 @@ from dlvpy.utilities.utility import Utils
 
 
 class SchemaComponent(ABC):
-    DEFAULT_SCHEMA_NAME_PREFIX = "schema"
+    DEFAULT_SCHEMA_NAME_PREFIX = "predicate"
     DEFAULT_KEY = "key"
     DEFAULT_ANCESTOR_KEY = "ancestor_key"
 

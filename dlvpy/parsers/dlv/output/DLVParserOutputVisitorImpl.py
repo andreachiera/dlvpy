@@ -155,6 +155,8 @@ class DLVParserOutputVisitorImpl(DLVParserOutputVisitor):
             if atom["name"] == 'float' or atom["name"] == 'negative_float':
                 float_value = float(str(atom["terms"][0]) + "." + str(atom["terms"][1]))
                 return -1 * float_value if atom["name"] == 'negative_float' else float_value
+            if atom["name"] == 'complex':
+                return complex(float(str(atom["terms"][0])), float(str(atom["terms"][1])))
             return atom["name"] + ('' if len(atom["terms"]) == 0 else (
                         '(' + ','.join([str(term) for term in atom["terms"]]) + ')'))
         if ctx.term():

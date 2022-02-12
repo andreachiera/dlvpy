@@ -39,8 +39,8 @@ SIMPLES = [
 ]
 
 COMPLEX = [
+    PythonDataType.DICT,
     PythonDataType.LIST,
-    PythonDataType.DICT
 ]
 
 
