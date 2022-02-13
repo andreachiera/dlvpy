@@ -384,10 +384,23 @@ class Utils:
                 sub_entity_component[prop] = value
 
             if key_autoincrement:
+                inner_key = None if len(ancestor_keys) == 0 else "__".join(ancestor_keys)
                 if schema["name"] not in schemas_autoincrement:
-                    schemas_autoincrement[schema["name"]] = 0
-                schemas_autoincrement[schema["name"]] += 1
-                key = str(schemas_autoincrement[schema["name"]])
+                    schemas_autoincrement[schema["name"]] = {
+                        "__DLVPY__ROOT__": 0
+                    }
+                if inner_key is not None and inner_key not in schemas_autoincrement[schema["name"]]:
+                    schemas_autoincrement[schema["name"]][inner_key] = 0
+
+                key_int = 0
+                if inner_key is not None:
+                    schemas_autoincrement[schema["name"]][inner_key] += 1
+                    key_int = schemas_autoincrement[schema["name"]][inner_key]
+                else:
+                    schemas_autoincrement[schema["name"]]["__DLVPY__ROOT__"] += 1
+                    key_int = schemas_autoincrement[schema["name"]]["__DLVPY__ROOT__"]
+
+                key = str(key_int)
 
             current_entity_component[schema["name"]][key] = sub_entity_component
 

@@ -81,11 +81,11 @@ def exampleDictDocenti():
 
     program = Program()
     idx = program.add_input((fileDictDocenti(), config1DictDocenti()))
-    # idx = print(program.readFactsOf(program.add_input((fileDictDocenti(), config2DictDocenti()))))
-    # idx = print(program.readFactsOf(program.add_input((fileDictDocenti(), config3DictDocenti()))))
-    # idx = print(program.readFactsOf(program.add_input(fileDictDocenti())))
+    # idx = print(program.read_facts_of(program.add_input((fileDictDocenti(), config2DictDocenti()))))
+    # idx = print(program.read_facts_of(program.add_input((fileDictDocenti(), config3DictDocenti()))))
+    # idx = print(program.read_facts_of(program.add_input(fileDictDocenti())))
     # idx = program.add_input(fileDictDocenti())
-    print(program.readFactsOf(idx))
+    print(program.read_facts_of(idx))
     #program.add_logic_rules("%schema(schema(key, \"nome\", \"cognome\", \"nascita\", \"collaboratori\"))")
     program.add_logic_rules(docenti_con_almeno_2_insegnamenti)
     options: Options = Options(dlv_path)
@@ -95,7 +95,7 @@ def exampleDictDocenti():
 def exampleListDocenti():
     program = Program()
     idx = program.add_input((fileListDocenti(), config1ListDocenti()))
-    print(program.readFactsOf(idx))
+    print(program.read_facts_of(idx))
     program.add_logic_rules("""
         insegnamenti(A,B,C,D,E,F,G) :- docenti__insegnamenti(A,B,C,D,E,F,G).
         esami(A,B,C,D,E,F,G) :- docenti__insegnamenti__esami(A,B,C,D,E,F,G).
@@ -120,8 +120,8 @@ def exampleDonut():
         %schema(donuts__topping(ancestor_key(donuts),key,"type"))
         %schema(donuts__fillings(ancestor_key(donuts),key,"name","addcost"))
     """)
-    print(program.readSchemaOf(idx))
-    print(program.readFactsOf(idx))
+    print(program.read_schemas_of(idx))
+    print(program.read_facts_of(idx))
     idResult, error = program.execute(dlv_path)
     print(program.get_last_result())
 

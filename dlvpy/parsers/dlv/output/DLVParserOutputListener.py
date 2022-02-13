@@ -35,12 +35,21 @@ class DLVParserOutputListener(ParseTreeListener):
         pass
 
 
-    # Enter a parse tree produced by DLVParserOutput#Query.
-    def enterQuery(self, ctx:DLVParserOutput.QueryContext):
+    # Enter a parse tree produced by DLVParserOutput#QueryGround.
+    def enterQueryGround(self, ctx:DLVParserOutput.QueryGroundContext):
         pass
 
-    # Exit a parse tree produced by DLVParserOutput#Query.
-    def exitQuery(self, ctx:DLVParserOutput.QueryContext):
+    # Exit a parse tree produced by DLVParserOutput#QueryGround.
+    def exitQueryGround(self, ctx:DLVParserOutput.QueryGroundContext):
+        pass
+
+
+    # Enter a parse tree produced by DLVParserOutput#QueryNonGround.
+    def enterQueryNonGround(self, ctx:DLVParserOutput.QueryNonGroundContext):
+        pass
+
+    # Exit a parse tree produced by DLVParserOutput#QueryNonGround.
+    def exitQueryNonGround(self, ctx:DLVParserOutput.QueryNonGroundContext):
         pass
 
 

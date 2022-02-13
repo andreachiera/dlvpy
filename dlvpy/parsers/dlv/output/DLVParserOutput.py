@@ -12,47 +12,49 @@ else:
 def serializedATN():
     with StringIO() as buf:
         buf.write("\3\u608b\ua72a\u8133\ub9ed\u417c\u3be7\u7786\u5964\3\32")
-        buf.write("\u0081\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7")
+        buf.write("\u0087\4\2\t\2\4\3\t\3\4\4\t\4\4\5\t\5\4\6\t\6\4\7\t\7")
         buf.write("\4\b\t\b\4\t\t\t\4\n\t\n\4\13\t\13\3\2\7\2\30\n\2\f\2")
         buf.write("\16\2\33\13\2\3\3\3\3\5\3\37\n\3\3\3\3\3\3\3\3\3\3\3\3")
         buf.write("\3\7\3\'\n\3\f\3\16\3*\13\3\3\3\3\3\3\3\3\3\3\3\5\3\61")
-        buf.write("\n\3\5\3\63\n\3\5\3\65\n\3\3\4\3\4\3\4\3\4\7\4;\n\4\f")
-        buf.write("\4\16\4>\13\4\5\4@\n\4\3\4\3\4\3\5\5\5E\n\5\3\5\3\5\3")
-        buf.write("\6\5\6J\n\6\3\6\3\6\3\7\3\7\3\7\3\7\3\7\7\7S\n\7\f\7\16")
-        buf.write("\7V\13\7\3\7\3\7\5\7Z\n\7\3\b\3\b\3\b\3\b\3\b\3\b\3\b")
-        buf.write("\7\bc\n\b\f\b\16\bf\13\b\5\bh\n\b\3\b\5\bk\n\b\3\t\3\t")
-        buf.write("\3\t\3\n\3\n\3\n\3\n\7\nt\n\n\f\n\16\nw\13\n\3\n\3\n\3")
-        buf.write("\13\3\13\3\13\3\13\3\13\3\13\3\13\2\2\f\2\4\6\b\n\f\16")
-        buf.write("\20\22\24\2\2\2\u0089\2\31\3\2\2\2\4\64\3\2\2\2\6\66\3")
-        buf.write("\2\2\2\bD\3\2\2\2\nI\3\2\2\2\fM\3\2\2\2\16j\3\2\2\2\20")
-        buf.write("l\3\2\2\2\22o\3\2\2\2\24z\3\2\2\2\26\30\5\4\3\2\27\26")
-        buf.write("\3\2\2\2\30\33\3\2\2\2\31\27\3\2\2\2\31\32\3\2\2\2\32")
-        buf.write("\3\3\2\2\2\33\31\3\2\2\2\34\65\5\6\4\2\35\37\7\22\2\2")
-        buf.write("\36\35\3\2\2\2\36\37\3\2\2\2\37 \3\2\2\2 !\5\6\4\2!\"")
-        buf.write("\5\22\n\2\"\65\3\2\2\2#(\5\b\5\2$%\7\5\2\2%\'\5\b\5\2")
-        buf.write("&$\3\2\2\2\'*\3\2\2\2(&\3\2\2\2()\3\2\2\2)\62\3\2\2\2")
-        buf.write("*(\3\2\2\2+,\7\25\2\2,-\7\26\2\2-\60\7\27\2\2.\61\7\31")
-        buf.write("\2\2/\61\5\20\t\2\60.\3\2\2\2\60/\3\2\2\2\61\63\3\2\2")
-        buf.write("\2\62+\3\2\2\2\62\63\3\2\2\2\63\65\3\2\2\2\64\34\3\2\2")
-        buf.write("\2\64\36\3\2\2\2\64#\3\2\2\2\65\5\3\2\2\2\66?\7\t\2\2")
-        buf.write("\67<\5\n\6\289\7\5\2\29;\5\n\6\2:8\3\2\2\2;>\3\2\2\2<")
-        buf.write(":\3\2\2\2<=\3\2\2\2=@\3\2\2\2><\3\2\2\2?\67\3\2\2\2?@")
-        buf.write("\3\2\2\2@A\3\2\2\2AB\7\n\2\2B\7\3\2\2\2CE\7\16\2\2DC\3")
-        buf.write("\2\2\2DE\3\2\2\2EF\3\2\2\2FG\5\n\6\2G\t\3\2\2\2HJ\7\r")
-        buf.write("\2\2IH\3\2\2\2IJ\3\2\2\2JK\3\2\2\2KL\5\f\7\2L\13\3\2\2")
-        buf.write("\2MY\7\20\2\2NO\7\7\2\2OT\5\16\b\2PQ\7\5\2\2QS\5\16\b")
-        buf.write("\2RP\3\2\2\2SV\3\2\2\2TR\3\2\2\2TU\3\2\2\2UW\3\2\2\2V")
-        buf.write("T\3\2\2\2WX\7\b\2\2XZ\3\2\2\2YN\3\2\2\2YZ\3\2\2\2Z\r\3")
-        buf.write("\2\2\2[k\7\17\2\2\\k\7\21\2\2]k\5\f\7\2^g\7\13\2\2_d\5")
-        buf.write("\16\b\2`a\7\5\2\2ac\5\16\b\2b`\3\2\2\2cf\3\2\2\2db\3\2")
-        buf.write("\2\2de\3\2\2\2eh\3\2\2\2fd\3\2\2\2g_\3\2\2\2gh\3\2\2\2")
-        buf.write("hi\3\2\2\2ik\7\f\2\2j[\3\2\2\2j\\\3\2\2\2j]\3\2\2\2j^")
-        buf.write("\3\2\2\2k\17\3\2\2\2lm\7\32\2\2mn\5\6\4\2n\21\3\2\2\2")
-        buf.write("op\7\23\2\2pu\5\24\13\2qr\7\5\2\2rt\5\24\13\2sq\3\2\2")
-        buf.write("\2tw\3\2\2\2us\3\2\2\2uv\3\2\2\2vx\3\2\2\2wu\3\2\2\2x")
-        buf.write("y\7\24\2\2y\23\3\2\2\2z{\7\13\2\2{|\7\21\2\2|}\7\6\2\2")
-        buf.write("}~\7\21\2\2~\177\7\f\2\2\177\25\3\2\2\2\22\31\36(\60\62")
-        buf.write("\64<?DITYdgju")
+        buf.write("\n\3\3\3\3\3\3\3\7\3\66\n\3\f\3\16\39\13\3\5\3;\n\3\3")
+        buf.write("\4\3\4\3\4\3\4\7\4A\n\4\f\4\16\4D\13\4\5\4F\n\4\3\4\3")
+        buf.write("\4\3\5\5\5K\n\5\3\5\3\5\3\6\5\6P\n\6\3\6\3\6\3\7\3\7\3")
+        buf.write("\7\3\7\3\7\7\7Y\n\7\f\7\16\7\\\13\7\3\7\3\7\5\7`\n\7\3")
+        buf.write("\b\3\b\3\b\3\b\3\b\3\b\3\b\7\bi\n\b\f\b\16\bl\13\b\5\b")
+        buf.write("n\n\b\3\b\5\bq\n\b\3\t\3\t\3\t\3\n\3\n\3\n\3\n\7\nz\n")
+        buf.write("\n\f\n\16\n}\13\n\3\n\3\n\3\13\3\13\3\13\3\13\3\13\3\13")
+        buf.write("\3\13\2\2\f\2\4\6\b\n\f\16\20\22\24\2\2\2\u0090\2\31\3")
+        buf.write("\2\2\2\4:\3\2\2\2\6<\3\2\2\2\bJ\3\2\2\2\nO\3\2\2\2\fS")
+        buf.write("\3\2\2\2\16p\3\2\2\2\20r\3\2\2\2\22u\3\2\2\2\24\u0080")
+        buf.write("\3\2\2\2\26\30\5\4\3\2\27\26\3\2\2\2\30\33\3\2\2\2\31")
+        buf.write("\27\3\2\2\2\31\32\3\2\2\2\32\3\3\2\2\2\33\31\3\2\2\2\34")
+        buf.write(";\5\6\4\2\35\37\7\22\2\2\36\35\3\2\2\2\36\37\3\2\2\2\37")
+        buf.write(" \3\2\2\2 !\5\6\4\2!\"\5\22\n\2\";\3\2\2\2#(\5\b\5\2$")
+        buf.write("%\7\5\2\2%\'\5\b\5\2&$\3\2\2\2\'*\3\2\2\2(&\3\2\2\2()")
+        buf.write("\3\2\2\2)+\3\2\2\2*(\3\2\2\2+,\7\25\2\2,-\7\26\2\2-\60")
+        buf.write("\7\27\2\2.\61\7\31\2\2/\61\5\20\t\2\60.\3\2\2\2\60/\3")
+        buf.write("\2\2\2\61;\3\2\2\2\62\67\5\16\b\2\63\64\7\5\2\2\64\66")
+        buf.write("\5\16\b\2\65\63\3\2\2\2\669\3\2\2\2\67\65\3\2\2\2\678")
+        buf.write("\3\2\2\28;\3\2\2\29\67\3\2\2\2:\34\3\2\2\2:\36\3\2\2\2")
+        buf.write(":#\3\2\2\2:\62\3\2\2\2;\5\3\2\2\2<E\7\t\2\2=B\5\n\6\2")
+        buf.write(">?\7\5\2\2?A\5\n\6\2@>\3\2\2\2AD\3\2\2\2B@\3\2\2\2BC\3")
+        buf.write("\2\2\2CF\3\2\2\2DB\3\2\2\2E=\3\2\2\2EF\3\2\2\2FG\3\2\2")
+        buf.write("\2GH\7\n\2\2H\7\3\2\2\2IK\7\16\2\2JI\3\2\2\2JK\3\2\2\2")
+        buf.write("KL\3\2\2\2LM\5\n\6\2M\t\3\2\2\2NP\7\r\2\2ON\3\2\2\2OP")
+        buf.write("\3\2\2\2PQ\3\2\2\2QR\5\f\7\2R\13\3\2\2\2S_\7\20\2\2TU")
+        buf.write("\7\7\2\2UZ\5\16\b\2VW\7\5\2\2WY\5\16\b\2XV\3\2\2\2Y\\")
+        buf.write("\3\2\2\2ZX\3\2\2\2Z[\3\2\2\2[]\3\2\2\2\\Z\3\2\2\2]^\7")
+        buf.write("\b\2\2^`\3\2\2\2_T\3\2\2\2_`\3\2\2\2`\r\3\2\2\2aq\7\17")
+        buf.write("\2\2bq\7\21\2\2cq\5\f\7\2dm\7\13\2\2ej\5\16\b\2fg\7\5")
+        buf.write("\2\2gi\5\16\b\2hf\3\2\2\2il\3\2\2\2jh\3\2\2\2jk\3\2\2")
+        buf.write("\2kn\3\2\2\2lj\3\2\2\2me\3\2\2\2mn\3\2\2\2no\3\2\2\2o")
+        buf.write("q\7\f\2\2pa\3\2\2\2pb\3\2\2\2pc\3\2\2\2pd\3\2\2\2q\17")
+        buf.write("\3\2\2\2rs\7\32\2\2st\5\6\4\2t\21\3\2\2\2uv\7\23\2\2v")
+        buf.write("{\5\24\13\2wx\7\5\2\2xz\5\24\13\2yw\3\2\2\2z}\3\2\2\2")
+        buf.write("{y\3\2\2\2{|\3\2\2\2|~\3\2\2\2}{\3\2\2\2~\177\7\24\2\2")
+        buf.write("\177\23\3\2\2\2\u0080\u0081\7\13\2\2\u0081\u0082\7\21")
+        buf.write("\2\2\u0082\u0083\7\6\2\2\u0083\u0084\7\21\2\2\u0084\u0085")
+        buf.write("\7\f\2\2\u0085\25\3\2\2\2\22\31\36(\60\67:BEJOZ_jmp{")
         return buf.getvalue()
 
 
@@ -173,7 +175,7 @@ class DLVParserOutput ( Parser ):
             self.state = 23
             self._errHandler.sync(self)
             _la = self._input.LA(1)
-            while (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DLVParserOutput.OPEN_BRACE) | (1 << DLVParserOutput.TRUE_NEGATION) | (1 << DLVParserOutput.NEGATION_AS_FAILURE) | (1 << DLVParserOutput.NAME) | (1 << DLVParserOutput.BEGIN_BEST_MODEL))) != 0):
+            while (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DLVParserOutput.OPEN_BRACE) | (1 << DLVParserOutput.OPEN_SQUARE_BRACKET) | (1 << DLVParserOutput.TRUE_NEGATION) | (1 << DLVParserOutput.NEGATION_AS_FAILURE) | (1 << DLVParserOutput.STRING) | (1 << DLVParserOutput.NAME) | (1 << DLVParserOutput.INTEGER) | (1 << DLVParserOutput.BEGIN_BEST_MODEL))) != 0):
                 self.state = 20
                 self.answer_set()
                 self.state = 25
@@ -261,7 +263,40 @@ class DLVParserOutput ( Parser ):
                 return visitor.visitChildren(self)
 
 
-    class QueryContext(Answer_setContext):
+    class QueryNonGroundContext(Answer_setContext):
+
+        def __init__(self, parser, ctx:ParserRuleContext): # actually a DLVParserOutput.Answer_setContext
+            super().__init__(parser)
+            self.copyFrom(ctx)
+
+        def term(self, i:int=None):
+            if i is None:
+                return self.getTypedRuleContexts(DLVParserOutput.TermContext)
+            else:
+                return self.getTypedRuleContext(DLVParserOutput.TermContext,i)
+
+        def COMMA(self, i:int=None):
+            if i is None:
+                return self.getTokens(DLVParserOutput.COMMA)
+            else:
+                return self.getToken(DLVParserOutput.COMMA, i)
+
+        def enterRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "enterQueryNonGround" ):
+                listener.enterQueryNonGround(self)
+
+        def exitRule(self, listener:ParseTreeListener):
+            if hasattr( listener, "exitQueryNonGround" ):
+                listener.exitQueryNonGround(self)
+
+        def accept(self, visitor:ParseTreeVisitor):
+            if hasattr( visitor, "visitQueryNonGround" ):
+                return visitor.visitQueryNonGround(self)
+            else:
+                return visitor.visitChildren(self)
+
+
+    class QueryGroundContext(Answer_setContext):
 
         def __init__(self, parser, ctx:ParserRuleContext): # actually a DLVParserOutput.Answer_setContext
             super().__init__(parser)
@@ -273,11 +308,6 @@ class DLVParserOutput ( Parser ):
             else:
                 return self.getTypedRuleContext(DLVParserOutput.Query_literalContext,i)
 
-        def COMMA(self, i:int=None):
-            if i is None:
-                return self.getTokens(DLVParserOutput.COMMA)
-            else:
-                return self.getToken(DLVParserOutput.COMMA, i)
         def BEGIN_GROUND_QUERY(self):
             return self.getToken(DLVParserOutput.BEGIN_GROUND_QUERY, 0)
         def REASONING(self):
@@ -289,18 +319,23 @@ class DLVParserOutput ( Parser ):
         def witness(self):
             return self.getTypedRuleContext(DLVParserOutput.WitnessContext,0)
 
+        def COMMA(self, i:int=None):
+            if i is None:
+                return self.getTokens(DLVParserOutput.COMMA)
+            else:
+                return self.getToken(DLVParserOutput.COMMA, i)
 
         def enterRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "enterQuery" ):
-                listener.enterQuery(self)
+            if hasattr( listener, "enterQueryGround" ):
+                listener.enterQueryGround(self)
 
         def exitRule(self, listener:ParseTreeListener):
-            if hasattr( listener, "exitQuery" ):
-                listener.exitQuery(self)
+            if hasattr( listener, "exitQueryGround" ):
+                listener.exitQueryGround(self)
 
         def accept(self, visitor:ParseTreeVisitor):
-            if hasattr( visitor, "visitQuery" ):
-                return visitor.visitQuery(self)
+            if hasattr( visitor, "visitQueryGround" ):
+                return visitor.visitQueryGround(self)
             else:
                 return visitor.visitChildren(self)
 
@@ -312,7 +347,7 @@ class DLVParserOutput ( Parser ):
         self.enterRule(localctx, 2, self.RULE_answer_set)
         self._la = 0 # Token type
         try:
-            self.state = 50
+            self.state = 56
             self._errHandler.sync(self)
             la_ = self._interp.adaptivePredict(self._input,5,self._ctx)
             if la_ == 1:
@@ -340,7 +375,7 @@ class DLVParserOutput ( Parser ):
                 pass
 
             elif la_ == 3:
-                localctx = DLVParserOutput.QueryContext(self, localctx)
+                localctx = DLVParserOutput.QueryGroundContext(self, localctx)
                 self.enterOuterAlt(localctx, 3)
                 self.state = 33
                 self.query_literal()
@@ -356,31 +391,44 @@ class DLVParserOutput ( Parser ):
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
+                self.state = 41
+                self.match(DLVParserOutput.BEGIN_GROUND_QUERY)
+                self.state = 42
+                self.match(DLVParserOutput.REASONING)
+                self.state = 43
+                self.match(DLVParserOutput.BOOLEAN)
+                self.state = 46
+                self._errHandler.sync(self)
+                token = self._input.LA(1)
+                if token in [DLVParserOutput.DOT]:
+                    self.state = 44
+                    self.match(DLVParserOutput.DOT)
+                    pass
+                elif token in [DLVParserOutput.BEGIN_WITNESS]:
+                    self.state = 45
+                    self.witness()
+                    pass
+                else:
+                    raise NoViableAltException(self)
+
+                pass
+
+            elif la_ == 4:
+                localctx = DLVParserOutput.QueryNonGroundContext(self, localctx)
+                self.enterOuterAlt(localctx, 4)
                 self.state = 48
+                self.term()
+                self.state = 53
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
-                if _la==DLVParserOutput.BEGIN_GROUND_QUERY:
-                    self.state = 41
-                    self.match(DLVParserOutput.BEGIN_GROUND_QUERY)
-                    self.state = 42
-                    self.match(DLVParserOutput.REASONING)
-                    self.state = 43
-                    self.match(DLVParserOutput.BOOLEAN)
-                    self.state = 46
+                while _la==DLVParserOutput.COMMA:
+                    self.state = 49
+                    self.match(DLVParserOutput.COMMA)
+                    self.state = 50
+                    self.term()
+                    self.state = 55
                     self._errHandler.sync(self)
-                    token = self._input.LA(1)
-                    if token in [DLVParserOutput.DOT]:
-                        self.state = 44
-                        self.match(DLVParserOutput.DOT)
-                        pass
-                    elif token in [DLVParserOutput.BEGIN_WITNESS]:
-                        self.state = 45
-                        self.witness()
-                        pass
-                    else:
-                        raise NoViableAltException(self)
-
-
+                    _la = self._input.LA(1)
 
                 pass
 
@@ -447,29 +495,29 @@ class DLVParserOutput ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 52
+            self.state = 58
             self.match(DLVParserOutput.OPEN_BRACE)
-            self.state = 61
+            self.state = 67
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==DLVParserOutput.TRUE_NEGATION or _la==DLVParserOutput.NAME:
-                self.state = 53
+                self.state = 59
                 self.literal()
-                self.state = 58
+                self.state = 64
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while _la==DLVParserOutput.COMMA:
-                    self.state = 54
-                    self.match(DLVParserOutput.COMMA)
-                    self.state = 55
-                    self.literal()
                     self.state = 60
+                    self.match(DLVParserOutput.COMMA)
+                    self.state = 61
+                    self.literal()
+                    self.state = 66
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
 
 
-            self.state = 63
+            self.state = 69
             self.match(DLVParserOutput.CLOSE_BRACE)
         except RecognitionException as re:
             localctx.exception = re
@@ -521,15 +569,15 @@ class DLVParserOutput ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 66
+            self.state = 72
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==DLVParserOutput.NEGATION_AS_FAILURE:
-                self.state = 65
+                self.state = 71
                 self.match(DLVParserOutput.NEGATION_AS_FAILURE)
 
 
-            self.state = 68
+            self.state = 74
             self.literal()
         except RecognitionException as re:
             localctx.exception = re
@@ -581,15 +629,15 @@ class DLVParserOutput ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 71
+            self.state = 77
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==DLVParserOutput.TRUE_NEGATION:
-                self.state = 70
+                self.state = 76
                 self.match(DLVParserOutput.TRUE_NEGATION)
 
 
-            self.state = 73
+            self.state = 79
             self.atom()
         except RecognitionException as re:
             localctx.exception = re
@@ -656,29 +704,29 @@ class DLVParserOutput ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 75
+            self.state = 81
             self.match(DLVParserOutput.NAME)
-            self.state = 87
+            self.state = 93
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==DLVParserOutput.OPEN_ROUND_BRACKET:
-                self.state = 76
-                self.match(DLVParserOutput.OPEN_ROUND_BRACKET)
-                self.state = 77
-                self.term()
                 self.state = 82
+                self.match(DLVParserOutput.OPEN_ROUND_BRACKET)
+                self.state = 83
+                self.term()
+                self.state = 88
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 while _la==DLVParserOutput.COMMA:
-                    self.state = 78
-                    self.match(DLVParserOutput.COMMA)
-                    self.state = 79
-                    self.term()
                     self.state = 84
+                    self.match(DLVParserOutput.COMMA)
+                    self.state = 85
+                    self.term()
+                    self.state = 90
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
 
-                self.state = 85
+                self.state = 91
                 self.match(DLVParserOutput.CLOSE_ROUND_BRACKET)
 
 
@@ -753,49 +801,49 @@ class DLVParserOutput ( Parser ):
         self.enterRule(localctx, 12, self.RULE_term)
         self._la = 0 # Token type
         try:
-            self.state = 104
+            self.state = 110
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [DLVParserOutput.STRING]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 89
+                self.state = 95
                 self.match(DLVParserOutput.STRING)
                 pass
             elif token in [DLVParserOutput.INTEGER]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 90
+                self.state = 96
                 self.match(DLVParserOutput.INTEGER)
                 pass
             elif token in [DLVParserOutput.NAME]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 91
+                self.state = 97
                 self.atom()
                 pass
             elif token in [DLVParserOutput.OPEN_SQUARE_BRACKET]:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 92
+                self.state = 98
                 self.match(DLVParserOutput.OPEN_SQUARE_BRACKET)
-                self.state = 101
+                self.state = 107
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
                 if (((_la) & ~0x3f) == 0 and ((1 << _la) & ((1 << DLVParserOutput.OPEN_SQUARE_BRACKET) | (1 << DLVParserOutput.STRING) | (1 << DLVParserOutput.NAME) | (1 << DLVParserOutput.INTEGER))) != 0):
-                    self.state = 93
+                    self.state = 99
                     self.term()
-                    self.state = 98
+                    self.state = 104
                     self._errHandler.sync(self)
                     _la = self._input.LA(1)
                     while _la==DLVParserOutput.COMMA:
-                        self.state = 94
-                        self.match(DLVParserOutput.COMMA)
-                        self.state = 95
-                        self.term()
                         self.state = 100
+                        self.match(DLVParserOutput.COMMA)
+                        self.state = 101
+                        self.term()
+                        self.state = 106
                         self._errHandler.sync(self)
                         _la = self._input.LA(1)
 
 
 
-                self.state = 103
+                self.state = 109
                 self.match(DLVParserOutput.CLOSE_SQUARE_BRACKET)
                 pass
             else:
@@ -850,9 +898,9 @@ class DLVParserOutput ( Parser ):
         self.enterRule(localctx, 14, self.RULE_witness)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 106
+            self.state = 112
             self.match(DLVParserOutput.BEGIN_WITNESS)
-            self.state = 107
+            self.state = 113
             self.model()
         except RecognitionException as re:
             localctx.exception = re
@@ -916,23 +964,23 @@ class DLVParserOutput ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 109
-            self.match(DLVParserOutput.BEGIN_COST)
-            self.state = 110
-            self.cost_amount()
             self.state = 115
+            self.match(DLVParserOutput.BEGIN_COST)
+            self.state = 116
+            self.cost_amount()
+            self.state = 121
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==DLVParserOutput.COMMA:
-                self.state = 111
-                self.match(DLVParserOutput.COMMA)
-                self.state = 112
-                self.cost_amount()
                 self.state = 117
+                self.match(DLVParserOutput.COMMA)
+                self.state = 118
+                self.cost_amount()
+                self.state = 123
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 118
+            self.state = 124
             self.match(DLVParserOutput.END_COST)
         except RecognitionException as re:
             localctx.exception = re
@@ -991,15 +1039,15 @@ class DLVParserOutput ( Parser ):
         self.enterRule(localctx, 18, self.RULE_cost_amount)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 120
+            self.state = 126
             self.match(DLVParserOutput.OPEN_SQUARE_BRACKET)
-            self.state = 121
+            self.state = 127
             self.match(DLVParserOutput.INTEGER)
-            self.state = 122
+            self.state = 128
             self.match(DLVParserOutput.COLON)
-            self.state = 123
+            self.state = 129
             self.match(DLVParserOutput.INTEGER)
-            self.state = 124
+            self.state = 130
             self.match(DLVParserOutput.CLOSE_SQUARE_BRACKET)
         except RecognitionException as re:
             localctx.exception = re

@@ -35,8 +35,8 @@ class DLVParserOutputVisitorImpl(DLVParserOutputVisitor):
             "model": model
         }
 
-    # Visit a parse tree produced by DLVParserOutput#Query.
-    def visitQuery(self, ctx: DLVParserOutput.QueryContext):
+    # Visit a parse tree produced by DLVParserOutput#QueryGround.
+    def visitQueryGround(self, ctx: DLVParserOutput.QueryGroundContext):
         if ctx is None or ctx.query_literal() is None:
             return None
 
@@ -52,7 +52,7 @@ class DLVParserOutputVisitorImpl(DLVParserOutputVisitor):
             return query
         reasoning = ctx.REASONING().getText()
         result = ctx.BOOLEAN().getText()
-        query["reasoning"] =  {
+        query["reasoning"] = {
             "type": reasoning,
             "value": None if result is None else True if result == 'true' else False
         }
@@ -63,6 +63,18 @@ class DLVParserOutputVisitorImpl(DLVParserOutputVisitor):
                 query["query"]["witness"] = witness
 
         return query
+
+    # Visit a parse tree produced by DLVParserOutput#QueryNonGround.
+    def visitQueryNonGround(self, ctx: DLVParserOutput.QueryNonGroundContext):
+        if ctx is None or ctx.term() is None:
+            return None
+
+        return {
+            "query": {
+                "terms": [self.visitTerm(term) for term in ctx.term()]
+            }
+        }
+
 
     # Visit a parse tree produced by DLVParserOutput#ModelWithCost.
     def visitModelWithCost(self, ctx: DLVParserOutput.ModelWithCostContext):

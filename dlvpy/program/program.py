@@ -202,7 +202,7 @@ class Program(ABC):
             input_files = []
 
             for identifier in self._entity_schema_components:
-                input_files.append(Utils.write_temp_file(self.readFactsOf(identifier)))
+                input_files.append(Utils.write_temp_file(self.read_facts_of(identifier)))
 
             for id_rule in self._logic_rules:
                 input_files.append(Utils.write_temp_file(self._logic_rules[id_rule]))
@@ -257,7 +257,7 @@ class Program(ABC):
             return None, [e]
         return None, None
 
-    def readSchemaOf(self, identifier: int) -> str or None:
+    def read_schemas_of(self, identifier: int) -> str or None:
         """
         Build schema definition of Input with this identifier, if identifier is unknown return None
         :param identifier: id of Input added
@@ -272,7 +272,7 @@ class Program(ABC):
             return None
         return result
 
-    def readFactsOf(self, identifier: int) -> str or None:
+    def read_facts_of(self, identifier: int) -> str or None:
         """
         Build facts of Input with this identifier, if identifier is unknown return None
         :param identifier: id of Input added

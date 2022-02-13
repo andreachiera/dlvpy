@@ -24,8 +24,13 @@ class DLVParserOutputVisitor(ParseTreeVisitor):
         return self.visitChildren(ctx)
 
 
-    # Visit a parse tree produced by DLVParserOutput#Query.
-    def visitQuery(self, ctx:DLVParserOutput.QueryContext):
+    # Visit a parse tree produced by DLVParserOutput#QueryGround.
+    def visitQueryGround(self, ctx:DLVParserOutput.QueryGroundContext):
+        return self.visitChildren(ctx)
+
+
+    # Visit a parse tree produced by DLVParserOutput#QueryNonGround.
+    def visitQueryNonGround(self, ctx:DLVParserOutput.QueryNonGroundContext):
         return self.visitChildren(ctx)
 
 
