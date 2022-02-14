@@ -148,7 +148,7 @@ class Program(ABC):
     @staticmethod
     def __map_json_to_dict(value):
         try:
-            return json.load(value)
+            return json.loads(value)
         except Exception:
             pass
         return None
