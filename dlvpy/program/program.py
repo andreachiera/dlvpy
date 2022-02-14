@@ -140,14 +140,22 @@ class Program(ABC):
     def get_result(self, identifier: int, jsonOutput = True):
         if identifier not in self._results:
             return None
-        return Program.__map_dict_to_json(self._last_result[identifier]) if jsonOutput else self._results[identifier]
+        return Program.__map_dict_to_json(self._results[identifier]) if jsonOutput else self._results[identifier]
 
-    def get_all_results(self, jsonOutput: bool = True) -> dict:
-        return Program.__map_dict_to_json(self._results) if jsonOutput else self._results
+    def get_all_results(self, jsonOutput: bool = True):
+        results = []
+        for identifier in self._results:
+            results.append(self.get_result(identifier, jsonOutput))
+        return results
 
     @staticmethod
     def __map_json_to_dict(value):
         try:
+            if os.path.exists(value):
+                f = open(value, "r")
+                fContent = f.read()
+                f.close()
+                return json.loads(fContent)
             return json.loads(value)
         except Exception:
             pass
