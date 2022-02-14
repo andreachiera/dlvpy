@@ -116,6 +116,18 @@ class Program(ABC):
         self._schemas_from_logic_rules[self.__id_logic_rules] = valid_schemas
         return self.__id_logic_rules
 
+    def add_logic_rules_from_file(self, path: str) -> int:
+        if os.path.exists(path):
+            logic_rules = ""
+            try:
+                f = open(path, "r")
+                logic_rules = f.read()
+                f.close()
+            except Exception:
+                return -1
+            return self.add_logic_rules(logic_rules)
+        return -1
+
     def remove_logic_rules(self, identifier: int) -> bool:
         """
         Remove Logic Rules from identifier
