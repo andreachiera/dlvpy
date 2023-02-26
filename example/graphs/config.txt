@@ -1,0 +1,11 @@
+{
+	"schema": "graphs",
+	"properties": {
+		"arcs": {
+			"type": "propertyKey",
+			"key": {
+				"autoincrement": true
+			}
+		}
+	}
+}
