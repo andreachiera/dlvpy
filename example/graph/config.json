@@ -1,0 +1,21 @@
+{
+  "schema": "graph",
+  "properties": {
+    "arcs": {
+      "type": "property",
+      "key": {
+	"properties": ["from", "to"],
+        "concat": "_"
+      }
+    },
+    "nodes": {
+      "type": "key"
+    },
+    "otherProperties": {
+	"type": "property",
+        "key": {
+          "autoincrement": true
+        }
+    }
+  }
+}

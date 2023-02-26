@@ -1,0 +1,4 @@
+atLeast700Students(K, S) :- unical(K, _, _, _, _, _, _, _, _, S, _), S > 700.
+atLeast2(K, S):- atLeast700Students(K, S).
+% schema(atLeast700Students(key(autoincrement), "codice", "studenti"))
+% schema(atLeast2(key(["codice", "studenti"], "-"), "codice", "studenti"))

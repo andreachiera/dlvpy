@@ -1,0 +1,11 @@
+{
+  "doc1": {
+    "name": "Mario",
+    "value": [-152, 2],
+    "value2": -1.0
+  },
+  "doc2": {
+    "name": "Pluto",
+    "value": -152
+  }
+}

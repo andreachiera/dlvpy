@@ -3,7 +3,7 @@ import json
 from dlvpy.program.program import Program
 from dlvpy.program.options import Options
 
-dlv_path = "C:\\dlvpy\\bin\\windows\\dlv.mingw-odbc.exe"
+dlv_path = "C:\\dlvpy\\dlv2\\dlv-2.1.1-win64.exe"
 
 def readJson(folder):
     file = open(folder, 'r', encoding="utf-8")
@@ -22,14 +22,6 @@ def configOffertaFormativa():
 
 def fileDictDocenti():
     return readJson('./docenti/dict/docenti.json')
-
-
-def configGraph():
-    return readJson('./graph/config.json')
-
-
-def fileGraph():
-    return readJson('./graph/graphs.json')
 
 
 def noConfig():
@@ -64,6 +56,14 @@ def configDonut():
     return readJson('./donut/config.json')
 
 
+def fileNegativeNumber():
+    return readJson('./negative_number/negative_number.json')
+
+
+def configNegativeNumber():
+    return readJson('./negative_number/negative_number_config.json')
+
+
 def exampleOffertaFormativa():
     at_least_700_students = """
         atLeast700Students(K, S) :- unical(K, _, _, _, _, _, _, _, _, S, _), S > 700.
@@ -76,11 +76,12 @@ def exampleOffertaFormativa():
 
     program = Program()
     idx = program.add_input((fileOffertaFormativa(), configOffertaFormativa()))
-    program.add_logic_rules(at_least_700_students)
+    ##program.add_logic_rules(at_least_700_students)
+    program.add_logic_rules_from_file('./offerta_formativa/logic_rules_file')
     options: Options = Options(dlv_path)
     options.add_option("-nofacts")
     program.execute(options)
-    print(program.get_last_result())
+    print(program.get_all_results())
 
 
 def exampleDictDocenti():
@@ -121,6 +122,8 @@ def exampleListDocenti():
 def exampleDonut():
     program = Program()
     program.add_input((fileDonut(), configDonut()))
+    options: Options = Options(dlv_path)
+    options.add_option("-silent")
     idx = program.add_logic_rules("""donutKey(DKey) :- donuts__topping(DKey, _, \"Sugar\").
         % schema(donutKey(key))
         % schema(donuts(key,"type","name","ppu"))
@@ -130,7 +133,7 @@ def exampleDonut():
     """)
     print(program.read_schemas_of(idx))
     print(program.read_facts_of(idx))
-    idResult, error = program.execute(dlv_path)
+    idResult, error = program.execute(options)
     print(program.get_last_result())
 
 def exampleQuery1():
@@ -262,14 +265,6 @@ def exampleFibonacci():
     program.execute(options)
     print(program.get_last_result())
 
-def exampleGraph():
-    program = Program()
-    id = program.add_input((fileGraph(), configGraph()))
-    print("SCHEMAS")
-    print(program.read_schemas_of(id))
-    print("\nFACTS")
-    print(program.read_facts_of(id))
-
 #exampleNoAnswerSets()
 #example3Col()
 #exampleFibonacci()
@@ -279,24 +274,11 @@ def exampleGraph():
 #exampleModelWithCost()
 #exampleDictDocenti()
 #exampleListDocenti()
-#exampleDonut()
+exampleDonut()
 #exampleRandom()
-#exampleGraph()
-
 #End Examples
 
-def exampleSchemaUscita():
-    program = Program()
-    program.add_logic_rules("""
-        relatore("012500", "Mario", "Rossi").
-        tesisti("012500", "207014", "Giovanni", "Verga").
-        tesisti("012500", "307014", "Francesco", "Petrarca").
-        % schema(relatore(key, "nome", "cognome")).
-        % schema(tesisti(ancestor_key(relatore), key(autoincrement), "matricola", "nome", "cognome")).
-    """)
-    options = Options(dlv_path)
-    #options.add_options(["-silent", "-nofacts"])
-    program.execute(options)
-    print(program.get_last_result())
-
-exampleSchemaUscita()
+# p = Program()
+# p.add_input('./offerta_formativa/offerta_formativa_2021.json')
+# p.execute(dlv_path)
+# print(p.get_last_result())

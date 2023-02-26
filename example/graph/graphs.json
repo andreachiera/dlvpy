@@ -1,0 +1,19 @@
+{
+  "g1": {
+    "name": "Graph1",
+    "description": "First Graph",
+    "arcs": [
+      { "from": "n1", "to": "n2", "weight": 12 },
+      { "from": "n2", "to": "n3" },
+      { "from": "n3", "to": "n1" }
+    ],
+    "nodes": {
+      "n1": { "description": "Node 1", "color": "green" },
+      "n2": { "color": "red" },
+      "n3": { "description": "Node 3" }
+    },
+    "otherProperties": {
+      "numberOfNodes": 3
+    }
+  }
+}
